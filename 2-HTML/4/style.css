@@ -81,3 +81,8 @@
     color: #0066CA;
     text-decoration: unset;
 }
+
+input,
+button {
+    font-family: BMitra!important;
+}
