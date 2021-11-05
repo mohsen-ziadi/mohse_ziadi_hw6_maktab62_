@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "BMitra";
+    src: url(BMitra.eot) format("eot");
+    src: url(BMitra.ttf) format("ttf");
+    src: url(BMitra.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: BMitra;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-image: url("./Iran.jpg");
+}
+
+.signin-form {
+    width: 30%;
+    padding: 3%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: stretch;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    background-color: #000000ad;
+}
+
+.signin-form>div {
+    margin-bottom: 5%;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    border: 1px solid #D0D6DC;
+    border-radius: 3px;
+}
+
+.input-group span {
+    width: 12%;
+    padding: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6C757D;
+}
+
+.input-group input {
+    width: 88%;
+    border: unset;
+    text-align: right;
+    padding: 2%;
+    font-family: Vazir;
+    font-size: 1.1rem;
+}
+
+.submit-form button {
+    width: 100%;
+    padding: 0.25rem;
+    color: white;
+    font-family: Vazir;
+    font-size: 1.1rem;
+    border: unset;
+    border-radius: 3px;
+    background-color: #28A745;
+}
+
+.register {
+    color: #0066CA;
+    text-decoration: unset;
+}

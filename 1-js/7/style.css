@@ -1,0 +1,22 @@
+* {
+    direction: rtl;
+}
+
+.input-group.has-error input {
+    border-color: red;
+}
+
+.input-group.has-error input::placeholder {
+    color: red;
+}
+
+.input-group .error-info {
+    display: none;
+    text-align: right;
+    font-size: .75rem;
+    color: red;
+}
+
+.input-group.has-error .error-info {
+    display: block;
+}
